@@ -4,7 +4,8 @@ from typing import Literal
 from animals import AnimalRequest, Parrot, Pigeon, Crow, Tiger, Monkey, Lion, Shark, Whale, Dolphin
 from dotenv import load_dotenv
 import os
-
+from fastapi import Request
+# RUN THIS FILE FOR API START
 load_dotenv()
 HOST = os.getenv("HOST")
 PORT = os.getenv("PORT")

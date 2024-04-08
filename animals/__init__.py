@@ -15,7 +15,7 @@ class Color(Enum):
     ORANGE: str = "orange"
 class AnimalRequest(BaseModel):
     name : str
-    color: Color
+    color: str
     size : float
     gender : str
 
